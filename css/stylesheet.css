@@ -1,0 +1,46 @@
+
+html{
+	background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%)) ;
+	/* background-image: url('../images/bg-pattern-mobile.svg') ; */
+}
+
+.center{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.content{
+	background-color: white;
+	text-align: center;
+	margin: 9em 4em 20em 3em;
+	padding: 4em 0em 3em;
+	border-radius: 1em;
+}
+
+.image{
+	position: relative;
+	margin-top:-10.8em ;
+}
+
+.shadow{
+	position: absolute;
+	top: 6.5em;
+}
+
+.words{
+	text-align: left;
+	padding-left: 2em;
+	
+}
+
+@media (min-width: 920px){
+	.words{
+		padding-left: 8em;
+	}
+
+
+	.content{
+		margin-left: 30em;
+		margin-right: 30em;
+	}
+}
